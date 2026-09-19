@@ -1,0 +1,18 @@
+Script started on 2026-09-19 14:49:32+05:30 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="101" LINES="11"]
+[?2004h]0;vidwamsakreddy@DESKTOP-1R8J99R: /mnt/c/Users/omkar/OneDrive/Desktop/EBot Task/lab[01;32mvidwamsakreddy@DESKTOP-1R8J99R[00m:[01;34m/mnt/c/Users/omkar/OneDrive/Desktop/EBot Task/lab[00m$ [7m./scenario.sh up[27m./scenario.sh up
+[?2004l==> applying cluster environment (cluster-state/)
+limitrange/debug-lab-guardrails created
+namespace/debug-lab unchanged
+==> installing the broken chart
+./scenario.sh: line 27: helm: command not found
+
+[2mhelm reported an error. That is not your machine misbehaving —[0m
+[2mit is part of the exercise. Read the error; it is evidence.[0m
+
+Lab is (partially) installed. Investigate with kubectl, fix the chart,
+re-run './scenario.sh up' to apply your fixes, and './scenario.sh verify'
+to check progress.
+[?2004h]0;vidwamsakreddy@DESKTOP-1R8J99R: /mnt/c/Users/omkar/OneDrive/Desktop/EBot Task/lab[01;32mvidwamsakreddy@DESKTOP-1R8J99R[00m:[01;34m/mnt/c/Users/omkar/OneDrive/Desktop/EBot Task/lab[00m$ exit
+[?2004lexit
+
+Script done on 2026-09-19 14:50:30+05:30 [COMMAND_EXIT_CODE="0"]
